@@ -126,12 +126,22 @@ USE_TZ = True
 
 # REST Framework settings
 
+# REST_FRAMEWORK = {
+#
+# }
+
 
 # Cors settings
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
+
+# JWT settings
+
+# JWT_AUTH = {
+#
+# }
 
 
 # Static files (CSS, JavaScript, Images)
